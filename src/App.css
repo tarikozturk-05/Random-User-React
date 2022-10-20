@@ -1,4 +1,83 @@
-.App {
+/* Color Theme Swatches in Hex */
+/* .Moda-1-hex { color: #03588C; }
+.Moda-2-hex { color: #0378A6; }
+.Moda-3-hex { color: #049DBF; }
+.Moda-4-hex { color: #04C4D9; }
+.Moda-5-hex { color: #01261C; }
+
+
+
+/* Color Theme Swatches in Hex */
+.Moda-1-hex { color: #BFC5D9; }
+.Moda-2-hex { color: #222C40; }
+.Moda-3-hex { color: #7B89A6; }
+.Moda-4-hex { color: #DFE5F2; }
+.Moda-5-hex { color: #F2EA77; }
+
+
+
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+  background-color:#BFC5D9;
+}
+.container{
+  text-align: center;
+  height:29rem ;
+width: 30rem;
+margin: 4rem auto;
+border: 3px solid black;
+background: linear-gradient(135deg, #F2EA77,#7B89A6);
+color: #222C40;
+  /* background-color: #F2EA77; */
+  padding: 1rem;
+  
+  
+}
+.ilk{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  /* border: 3px solid red; */
+}
+img{
+  margin-left: 2.5rem;
+  width: 2rem;
+}
+img:hover{
+  transform: scale(2);
+}
+.ilkImg{
+  margin-left: 0.7rem;
+  width: 7rem;
+  border-radius: 50%;
+}
+.ilkImg:hover{
+  transform: scale(1);
+}
+.button{
+background-color: #F2EA77;
+border: 2px solid black;
+padding: 0.2rem;
+margin-top: 1rem;
+cursor: pointer;
+border-radius: 5px;
+}
+.button:hover{
+  border: 2px solid black;
+  padding: 0.3rem;
+  /* background-color: aquamarine; */
+  box-shadow: 5px 5px 5px 1px #F2EA77;
+  /* transform: scale(1.1); */
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +114,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
